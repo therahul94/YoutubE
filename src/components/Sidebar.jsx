@@ -162,7 +162,7 @@ function Sidebar() {
     }, 
   ];
   return (
-    <div className="py-3 px-2 w-[15%] h-[calc(100vh-6.625rem)] overflow-y-scroll overflow-x-hidden mt-12 space-y-3">
+    <div className="py-3 px-2 w-[23%] h-[calc(100vh-6.625rem)] overflow-y-scroll overflow-x-hidden mt-12 space-y-3">
       <div className="space-y-1">
         {sidebarPart1.map(({ id, logo, content }) => {
           return <SidebarContents key={id} logo={logo} content={content} />;
